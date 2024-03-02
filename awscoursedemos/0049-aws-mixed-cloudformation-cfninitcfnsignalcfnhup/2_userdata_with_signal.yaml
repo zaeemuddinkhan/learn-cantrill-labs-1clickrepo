@@ -2,7 +2,7 @@ Parameters:
   LatestAmiId:
     Description: "AMI for EC2"
     Type: 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
-    Default: '/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2'
+    Default: '/aws/service/ami-amazon-linux-latest/ami-02d0a1cbe2c3e5ae4'
   Message:
     Description: "Message for HTML page"
     Default: "Cats are the best"
